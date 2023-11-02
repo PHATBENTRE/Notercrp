@@ -1,0 +1,25 @@
+    { "Transformer", 7 }, // 0
+    { "Car parts", 9 }, // 1
+    { "Do gia dung", 0 }, // 2   >> Giao 24/7 >>> 
+    { "Giay", 0 }, // 3
+    { "Noi that", 0 }, // 4
+    { "Quan ao", 0 }, // 5
+    { "Sat thep", 0 }, // 6 >> Có 4% Tỉ lệ ra 1 Sắt
+    { "Thit", 0 }, // 7  >> Có 5% Tỉ lệ ra 1 Thịt
+    { "Thuc pham", 0 }, // 8 >> Có 5% tỉ lệ ra 1 bánh mì
+    { "Thuoc sung", 0 }, // 9 >> Có 10% tỉ lệ ra 1 thuốc súng
+    { "Trai cay", 0 }, // 10 >> Có 5% tỉ lệ ra 1 trái cây
+    { "Trung", 0 }, // 11
+    { "Bot mi", 1 }, // 12 >> Có 10% tỉ lệ ra 1 bột mì
+    { "Ngu coc", 1 }, // 13 
+    { "Phe lieu", 1 }, // 14 >> Có 10% tỉ lệ ra 1 Đồng
+    { "Vai cotton", 1 }, // 15
+    { "Vat lieu", 1 }, // 16 >> Có 10% tỉ lệ ra 1 Vật Liệu
+    { "Vu khi", 2 }, // 17
+    { "Phuong tien", 8 }, // 18 >> 
+    { "Thuoc nhuom", 3 }, // 19
+    { "Xang dau", 3 }, // 20
+    { "Sua", 4 }, // 21
+    { "Go", 5 }, // 22 >> Có 30% tỉ lệ ra 1 gỗ
+    { "Vat lieu xay dung", 6 }, // 23
+    { "Thuc uong", 0 } // 24 >> Có 5% tỉ lệ ra 1 Juice
