@@ -21,5 +21,5 @@
     { "Xang dau", 3 }, // 20
     { "Sua", 4 }, // 21
     { "Go", 5 }, // 22 >> Có 30% tỉ lệ ra 1 gỗ
-    { "Vat lieu xay dung", 6 }, // 23
+    { "Vat lieu xay dung", 6 }, // 23 >> có 10% tỉ lệ ra gỗ
     { "Thuc uong", 0 } // 24 >> Có 5% tỉ lệ ra 1 Juice
