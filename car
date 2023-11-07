@@ -1,0 +1,25 @@
+1. Hệ thống xe:
+	A: Xăng xe
+		Hệ thống bình xăng mặc định cho mỗi xe, ví dụ là mỗi xe 50L. (Kiểm tra xem hiện tại xăng của mỗi loại xe đang mặc định là bao nhiêu thì giảm xuống 1 nửa)
+			Có thể nâng cấp bình xăng sau này khi Biz xe hoàn thành. Mỗi lần Upgrade bình xăng sẽ lên 50-100-150
+				
+				
+	B. Hệ thống xe:
+		Tạo dữ liệu lưu lại độ hỏng của xe, bao gồm cả xăng xe. Người chơi khi /q hay sell car cũng vẫn bị lưu lại độ hỏng và số lượng xăng
+	
+	
+	
+		1. Động cơ: Động cơ chính là HP của xe, Để mặc định mỗi xe là 900 HP. Các loại xe Truck để lên 1.100(Không để 1000HP vì khi Cleo hay Fix xe mặc định của game sẽ đưa HP về 1.000)
+			Động cơ sau này có thể nâng cấp lên 1.100 1.300 1.500 1.700 1.900 (Max)
+		2. Đèn xe
+		3. Cửa xe
+		4. Cẳng xe
+		5. Mui xe
+		6. Lốp xe
+			Lốp xe có hạn sử dụng là 10days, tạo sẵn một item lốp xe để có thể mua từ Mechanic Biz, người chơi có thể tự thay lốp xe bằng cách ấn sử dụng vào lốp xe trong túi đồ khi đứng cạnh xe.
+		7. Cốp xe
+		
+		
+	C. Một vài lưu ý: Người chơi chỉ có thể đậu xe ở gần nhà ở (Vì bây giờ ai cũng có nhà)
+					Khi có người ngồi trên xe, người chơi không thể /chinhxe cất xe đi.
+					
