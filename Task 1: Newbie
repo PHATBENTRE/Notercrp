@@ -1,0 +1,13 @@
+Task 1: Newbie - Điền giá mong muốn vào đây:
+
+- Khi Newbie vào game sẽ được tặng 1 GPS có HSD 5 ngày. 
+- Tạo 1 điểm tặng xe ngay cạnh điểm người chơi Spawn (Giống cái pickup icon của /mech) với nội dung "An phim H de lay xe Newbie" - Tặng cho người chơi 1 con Piaggo ngay khi ấn H và xác nhận. 
+- Người chơi sẽ hiện 1 notify với nội dung "Chao 'tennguoichoi', An Phim 2 de tim hieu ve cac nghe nghiep trong thanh pho ngay nhe)" " Chao 'tennguoichoi', Co ve ban da bo lo nhiem vu hang ngay, Su dung phim 2 de hoan thanh nhiem vu ngay hom nay nhe",
+mỗi 5p sẽ xuất hiện 1 lần. Ấn phím 2 sẽ hiện lên 1 bảng dialog:
+		1. Nghề nghiệp: Khi click vào sẽ hiện ra các loại Job (Trong GPS timvieclam) click vào sẽ cho toạ độ đến các job (Có thể lấy trong GPS/Jobs)
+		2. Nhiệm vụ: Khi ấn vào sẽ hiện lên các bảng nhiệm vụ hiện tại (Sẽ làm lại nhiệm vụ trong task 2) Người chơi có thể nhận nhiệm vụ và xem tiến độ nhiệm vụ ở bất kì đâu, không cần thông qua NPC.
+		3. Trợ giúp: Hiện ra dialog /trogiup hien tai.
+
+
+
+
