@@ -1,0 +1,31 @@
+Nhiệm vụ: Có thể làm mới hoặc code lại NPC Nhiệm vụ đang có.
+  1. NPC
+    Xuất hiện ngay cạnh người chơi khi Spawn Game
+    Ấn H để tương tác với NPC show ra UI bảng nhiệm vụ của Phát thiết kế
+
+Phát: Thiết kế lại UI cho bảng nhiểm vụ gồm 3 phần
+  - Nhiệm vụ tân thủ
+      Hiện lên một bảng textdraw Yes/No
+  - Nhiệm vụ hàng ngày 
+      Hiện lên 3 nhiệm vụ có thể làm, nhận 1 trong 3
+  - Event (Thay đổi theo mùa) 
+      Hiện lên thông tin về sự kiện đang diễn ra, bây giờ là event tết
+Phân biệt giữa Mobile và PC, Mobile thì chỉ cần làm thực sự đơn giản, có thể dùng bằng dialog cũng được
+
+
+
+Tích hợp thêm vào phím Y - Nhiệm vụ 
+
+  2. Nội dung -  Xem mẫu hiển thị: https://drive.google.com/file/d/1kC4h9Rm7Qp2Gury0ENZO1PIHcT6U5VQW/view?usp=drive_link
+    1. Nhiệm vụ tân thủ: 6/6
+        1. Buoc khoi dau:
+            Hay su dung tui do (Phim Y) de su dung GPS va tim den City Hall. Vao ben trong de dang ky CMND. ((Phan thuong: 3.000$))
+        2. Phuong tien lien lac:
+            Hay su dung tui do (Phim Y) de su dung GPS va tim den 24.7 gan nhat. Vao ben trong cua hang, /buy de mua cho minh mot chiec Dien Thoai va mot Radio. ((Phan thuong: 3.000$))
+        3. Giao Hang Pizza Khoi Nghiep
+            Su dung GPS, tim cong viec Pizza Boy. Giao 20 chiec banh den khu vuc dan cu gan do ((Phan thuong: 20 Buger + 20 Juice + 4.000$))
+                ((Có hiển thị tiến độ ví dụ: Bánh pizza 3/20))
+        4. Kham Pha Mo Vang
+            Su dung GPS, tim cong viec Miner. Tim chu khu mo, mua Pickaxe va tien hanh dao 20 quang khoang san ((Phan thuong: 10 Dong + 10 Sat + 4.000$))
+        5. 
+
