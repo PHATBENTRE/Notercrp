@@ -1,1 +1,50 @@
+A. Farmer:
+	1. Khi người chơi thuê farm, /q ra thì mất luôn farm.
+	2. Người chơi vẫn chưa thể trồng cùng nhau trong 1 farm khi vào cùng
+	
+B. Trucker
+	1. Hệ thống xe:
+		Benson: 16T Hang va Ke Hang
+		Mule: 18T Hang va Ke Hang
+		DFT-30 : Khúc gỗ: 2 							Ngồi trên xe /truckergo buy thì sẽ báo chatlog đã chất 1 cây gỗ trên xe (5s load hàng)
+				 Transformer: 5T Transformer 			Ngồi trên xe /truckergo buy thì sẽ báo chatlog đã chất 1 Transformer (5s load hàng)
+				 Phương Tiện: 2 					Ngồi trên xe /truckergo buy thì sẽ báo chatlog đã chất 1 Phương Tiện (5s load hàng)
+		Packer: Phương Tiện: 4 					Ngồi trên xe /truckergo buy thì sẽ báo chatlog đã chất 1 Phương Tiện (5s load hàng)
+		Flated: 20 Tấn 							Ngồi trên xe /truckergo buy thì sẽ Showdialog (Số lượng: 10) - Hiện dòng chữ bạn đang lấy hàng vui lòng chờ ... s (1 tấn là 5s)
+												Khi ấn nhiều hơn 20 thì hiện chatlog (Xe của bạn không đủ trọng tải)
+		Yankee: 24 Thùng Hàng và Kệ Hàng
+		
+		
+	2. Đưa hàng vào Biz: /resupply /checkresupply /cancelresupply
+	Quy chuẩn hàng:
+		24/7 - Đồ gia dụng - 1T đồ gia dụng = 1 inventory
+				Xăng: 1L = 1L
+		Biz car - 1 Phương tiện = 1 Inventory
+		Biz Quần áo: 1T Quần áo = 1 inventory
+		Biz Mechanic: 1 Transformer = 20 Inventory
+		
+		
+		Khi chủ hàng dùng lệnh gọi hàng vào Biz  bằng lệnh (Cái này a chưa biết n là lệnh nào) - Showdialog: 
+					Hàng hoá
+					Xăng
+					Đồ gia dụng
 
+					Số lượng hàng bạn cần nhập (enter) Giá tiền mỗi thùng (enter)
+			
+		Khi Biz ấn lệnh gọi hàng theo từng loại Biz, trong gamemode có sẵn lệnh gọi hàng từ Biz (NPC Trucker sẽ hiện thêm 1 dòng dưới nhận nhiệm vụ là - Business)
+		Khi ấn vào Business hiện ra danh sách những Biz đang cần nhập hàng, ví dụ
+					Cửa hàng 24/7 Loren 			30T Đồ gia dụng 		Giá: 500$/1 Thùng
+					Cửa hàng Quần áo 				100T Quần áo			Giá: 360$/1 Thùng
+				Khi người chơi Select vào dòng nào thì hiện chatlog: Bạn đã nhận đơn hàng Cửa Hàng 24/7 Loren, hãy mau đi lấy hàng trước khi có tài xế khác giao hàng trước bạn.
+				
+				
+			Người chơi sẽ tự đi lấy hàng từ điểm nhà máy, khi đủ hàng thì /truckergo biz, hiện checkpoint đến điểm lấy hàng của cửa hàng đó (Qua cái /bedit SupplyPoint)
+			Khi đến điểm đó thì ấn N rồi /truckergo sell như bình thường, đồi với các xe đặc biệt thì ngồi trên xe /truckergo sell (Thời gian chờ tương đương load hàng)
+			
+			Khi người chơi nào đó đã giao đủ hàng thì business trong NPC mất dòng đó, nếu lấy chưa đủ thì lại hiện
+					Cửa hàng 24/7 Loren 			18T Đồ gia dụng 		Giá: 500$/1 Thùng
+					Cửa hàng Quần áo 				50T Quần áo			Giá: 360$/1 Thùng
+					
+			Trong trường hợp người chơi trở đến mà nó không cần nhập nữa thì hiện ra chatlog, Cửa hàng đã nhập đủ hàng, hãy giao hàng của bạn đến nhà máy khác nhé.
+			
+			Anh biết chú hơi bận, nhưng cố gắng để a cùng sv qua cái giai đoạn hơi khó khăn nay, cũng mong là chủ rảnh rỗi được để cùng anh xây dựng máy chủ. Cố tí nhé chú.
